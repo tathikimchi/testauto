@@ -74,6 +74,13 @@ public class Login {
             e.printStackTrace();
         }
     }
+    public void pause3(Integer giay){
+        try {
+            TimeUnit.MILLISECONDS.sleep(giay*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     private WebElement timTheoXpath(String s) {
         WebElement element = driver.findElement(By.xpath(s));
         if (element.isDisplayed()){
