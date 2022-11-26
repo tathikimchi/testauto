@@ -69,14 +69,14 @@ public class Login {
 
     public void pause2(Integer giay){
         try {
-            TimeUnit.MILLISECONDS.sleep(giay*1000);
+            TimeUnit.MILLISECONDS.sleep(giay*33000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
     public void pause3(Integer giay){
-        try {//chi lun
-            TimeUnit.MILLISECONDS.sleep(giay*5000);
+        try {//chi lun ne
+            TimeUnit.MILLISECONDS.sleep(giay*4455000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
