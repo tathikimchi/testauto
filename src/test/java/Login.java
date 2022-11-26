@@ -75,8 +75,8 @@ public class Login {
         }
     }
     public void pause3(Integer giay){
-        try {
-            TimeUnit.MILLISECONDS.sleep(giay*1000);
+        try {//chi lun
+            TimeUnit.MILLISECONDS.sleep(giay*5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
