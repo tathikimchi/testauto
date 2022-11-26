@@ -48,7 +48,7 @@ public class Login {
         //click button login
         click("//*[@id=\"button-compo\"]");
 
-        pause(5);
+       // pause(5);
         assertEquals("https://lb-fe-testing.fireapps.tech/inbox/groups/assign_to_you", driver.getCurrentUrl());
 
     }
