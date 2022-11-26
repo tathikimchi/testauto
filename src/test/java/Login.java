@@ -27,9 +27,6 @@ public class Login {
 
     }
 
-
-
-
     private void login() {
         // mở màn hình login
         driver.get("https://lb-fe-testing.fireapps.tech");
